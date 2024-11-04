@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Luma_TestSuite" time="22.196" tests="1" failures="0" errors="0">
+   <testsuite name="Luma_TestSuite" tests="1" failures="0" errors="0" time="22.196" skipped="0" timestamp="2024-11-04 17:22:53" hostname="Admin - LenovoNew12" id="Test Suites/Luma_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Admin\\Katalon Studio\\Luma_DemoProject\\Reports\\20241104_172244\\Luma_TestSuite\\20241104_172244"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\Katalon Studio\\Luma_DemoProject\\Reports\\20241104_172244\\Luma_TestSuite\\20241104_172244\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - LenovoNew12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.193"/>
+         <property name="sessionId" value="22203682dc41de6c4a381fdd8e1b744e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/01. Login_TestCases/01. Validate Login Page" time="21.397" classname="Test Cases/01. Login_TestCases/01. Validate Login Page" status="PASSED">
+         <system-out><![CDATA[2024-11-04 17:22:53 - [TEST_CASE][PASSED] - Test Cases/01. Login_TestCases/01. Validate Login Page: Test Cases/01. Login_TestCases/01. Validate Login Page
+
+2024-11-04 17:22:53 - [TEST_STEP][PASSED] - Start listener action : openBrowser: Current window maximized
+
+2024-11-04 17:22:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-11-04 17:22:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-11-04 17:22:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-11-04 17:22:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-11-04 17:22:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-11-04 17:22:56 - [MESSAGE][PASSED] - Current window maximized
+
+2024-11-04 17:22:56 - [TEST_STEP][PASSED] - customCommands.AllCustomCommands.lumaLogin(): customCommands.AllCustomCommands.lumaLogin is PASSED
+
+2024-11-04 17:23:01 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+2024-11-04 17:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/01. LoginPage_Locators/signInCTA' is visible
+
+2024-11-04 17:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/01. LoginPage_Locators/signInCTA' is clicked on
+
+2024-11-04 17:23:07 - [MESSAGE][PASSED] - Text 'testfaiz21@getnada.com' is set on object 'Object Repository/01. LoginPage_Locators/email'
+
+2024-11-04 17:23:08 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/01. LoginPage_Locators/password'
+
+2024-11-04 17:23:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-11-04 17:23:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/01. LoginPage_Locators/loginCTA' successfully
+
+2024-11-04 17:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/01. LoginPage_Locators/loginCTA' is clicked on
+
+2024-11-04 17:23:12 - [MESSAGE][PASSED] - customCommands.AllCustomCommands.lumaLogin is PASSED
+
+2024-11-04 17:23:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01. LoginPage_Locators/loggedUserName"), "Welcome, Test Faiz!"): Actual text and expected text of test object 'Object Repository/01. LoginPage_Locators/loggedUserName' are matched.
+
+2024-11-04 17:23:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01. LoginPage_Locators/loggedUserName' are matched.
+
+2024-11-04 17:23:12 - [TEST_STEP][PASSED] - click(findTestObject("01. LoginPage_Locators/dropdownMenu")): Object: 'Object Repository/01. LoginPage_Locators/dropdownMenu' is clicked on
+
+2024-11-04 17:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/01. LoginPage_Locators/dropdownMenu' is clicked on
+
+2024-11-04 17:23:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01. LoginPage_Locators/signOutCTA")): Object 'Object Repository/01. LoginPage_Locators/signOutCTA' is visible
+
+2024-11-04 17:23:13 - [MESSAGE][PASSED] - Object 'Object Repository/01. LoginPage_Locators/signOutCTA' is visible
+
+2024-11-04 17:23:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-11-04 17:23:14 - [MESSAGE][PASSED] - Browser is closed
+
+2024-11-04 17:23:14 - [TEST_STEP][PASSED] - Start listener action : closeBrowser: Browser is closed
+
+2024-11-04 17:23:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-11-04 17:23:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-11-04 17:22:53 - [TEST_SUITE][PASSED] - Luma_TestSuite: Test Cases/01. Login_TestCases/01. Validate Login Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

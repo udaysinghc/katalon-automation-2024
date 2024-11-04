@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Luma_TestSuite,Chrome 130.0.0.0,,,2024-11-04 17:22:53,2024-11-04 17:23:14,21.641s,PASSED
+,,,,,,,
+Test Cases/01. Login_TestCases/01. Validate Login Page,Chrome 130.0.0.0,,,2024-11-04 17:22:53,2024-11-04 17:23:14,21.397s,PASSED
+Start listener action : openBrowser,Chrome 130.0.0.0,,,2024-11-04 17:22:53,2024-11-04 17:22:56,2.963s,PASSED
+customCommands.AllCustomCommands.lumaLogin(),Chrome 130.0.0.0,,,2024-11-04 17:22:56,2024-11-04 17:23:12,15.728s,PASSED
+"verifyElementText(findTestObject(""01. LoginPage_Locators/loggedUserName""), ""Welcome, Test Faiz!"")",Chrome 130.0.0.0,,,2024-11-04 17:23:12,2024-11-04 17:23:12,0.502s,PASSED
+"click(findTestObject(""01. LoginPage_Locators/dropdownMenu""))",Chrome 130.0.0.0,,,2024-11-04 17:23:12,2024-11-04 17:23:13,0.431s,PASSED
+"verifyElementVisible(findTestObject(""01. LoginPage_Locators/signOutCTA""))",Chrome 130.0.0.0,,,2024-11-04 17:23:13,2024-11-04 17:23:13,0.419s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,2024-11-04 17:23:13,2024-11-04 17:23:14,0.994s,PASSED
+Start listener action : closeBrowser,Chrome 130.0.0.0,,,2024-11-04 17:23:14,2024-11-04 17:23:14,0.010s,PASSED
